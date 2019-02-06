@@ -9,4 +9,4 @@ ADD start /start
 RUN chmod 755 /start
 CMD ["/start"]
 
-EXPOSE 3000
+EXPOSE 9090
