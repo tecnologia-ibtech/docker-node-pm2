@@ -1,6 +1,6 @@
 FROM node:10.15.0
 
-MAINTAINER Armagan Amcalar "armagan@amcalar.com"
+MAINTAINER Bruno Thiago Pereira "bruno@ibtech.inf.br"
 
 RUN npm install -g pm2
 
@@ -9,6 +9,4 @@ ADD start /start
 RUN chmod 755 /start
 CMD ["/start"]
 
-EXPOSE 80
-EXPOSE 443
 EXPOSE 3000
