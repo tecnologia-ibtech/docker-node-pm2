@@ -1,4 +1,4 @@
-FROM node:10.15.0
+FROM node:10.15.3
 
 MAINTAINER Bruno Thiago Pereira "bruno@ibtech.inf.br"
 
